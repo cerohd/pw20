@@ -3,4 +3,53 @@
   margin: 1em 0;
   padding: 25px;
   font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+#resume-container a {
+  color: #000000;
+}
+
+#resume-container a:hover {
+  color: blue;
+}
+
+ul {
+  /* defaults */
+  list-style-type: disc;
+  margin-top: 1em;
+  margin-bottom: 1 em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 40px;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+#header h1 {
+  margin-top: 0;
+  line-height: 1em;
+}
+
+#contact-list {
+  margin-top: 0;
+  display: flex;
+  align-content: flex-start;
+  justify-content: flex-end;
+  list-style-type: none;
+  flex-direction: column;
+}
+
+#contact-list li {
+  text-align: right;
+  justify-self: flex-end;
+}
+
+#contact-list a {
+  text-decoration: none;
 }
